@@ -41,11 +41,27 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="meter" />
-                                <h5>Responsive Web Design</h5>
+                                <h5>Mobile Responsive Design</h5>
+                            </div>
+                           <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>MERN</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="meter" />
                                 <h5>ReactJS</h5>
+                            </div>
+                         <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>NextJS</h5>
+                            </div>
+                         <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>TailwindCSS</h5>
+                            </div>
+                         <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>Express</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="meter" />
@@ -63,9 +79,13 @@ export const Skills = () => {
                                 <img src={meter2} alt="meter" />
                                 <h5>JAVASCRIPT</h5>
                             </div>
+                         <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>TYPESCRIPT</h5>
+                            </div>
                             <div className="item">
                                 <img src={meter1} alt="meter" />
-                                <h5>BOOTSTRAP</h5>
+                                <h5>BOOTSTRAP5</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="meter" />
@@ -75,6 +95,10 @@ export const Skills = () => {
                                 <img src={meter2} alt="meter" />
                                 <h5>NODEJS</h5>
                             </div>
+                           <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>MONGODB</h5>
+                            </div>
                             <div className="item">
                                 <img src={meter1} alt="meter" />
                                 <h5>SQL</h5>
@@ -83,6 +107,10 @@ export const Skills = () => {
                                 <img src={meter1} alt="meter" />
                                 <h5>RESTFUL API</h5>
                             </div>
+                           <div className="item">
+                                <img src={meter1} alt="meter" />
+                                <h5>GRAPHQL</h5>
+                            </div>
                             <div className="item">
                                 <img src={meter2} alt="meter" />
                                 <h5>GIT VERSION CONTROL</h5>
@@ -90,6 +118,14 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter2} alt="meter" />
                                 <h5>GITHUB</h5>
+                            </div>
+                          <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>VERCEL</h5>
+                            </div>
+                          <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>NETLIFY</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="meter" />
