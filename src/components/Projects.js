@@ -9,6 +9,16 @@ import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.png";
 import projImg9 from "../assets/img/project-img9.png";
+import projImg10 from "../assets/img/project-img10.png";
+import projImg11 from "../assets/img/project-img11.png";
+import projImg12 from "../assets/img/project-img12.png";
+import projImg13 from "../assets/img/project-img13.png";
+import projImg14 from "../assets/img/project-img-14.png";
+import projImg15 from "../assets/img/project-img15.png";
+import projImg16 from "../assets/img/project-img16.png";
+import projImg17 from "../assets/img/project-img-17.png";
+import projImg18 from "../assets/img/project-img18.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -17,67 +27,67 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Dark Mode Site",
-      description: "Change the way you like to see",
-      imgUrl: projImg7,
-      projectLink: "https://usmanwasif123.github.io/dark-mode/",
+      title: "Banking App with Finance Management Dashboard",
+      description: "Horizon is a modern banking platform for everyone.",
+      imgUrl: projImg10,
+      projectLink: "https://banking-app-with-finance-managemanet-dashboard.vercel.app/",
       
     },
     {
-      title: "Jobster",
-      description: "Find you job here",
-      imgUrl: projImg8,
-      projectLink: "https://usmanwasif123.github.io/Jobster/",
+      title: "Travel Landing Page",
+      description: "Travel UI/UX App from Camping",
+      imgUrl: projImg11,
+      projectLink: "https://travel-app-seven-rosy.vercel.app/",
     },
    
     {
-      title: "EdgeLedger",
-      description: "Sky is the limit",
-      imgUrl: projImg9,
-      projectLink: "https://3edge-ledger.netlify.app/",
+      title: "Stock Photo",
+      description: "Get every photos ",
+      imgUrl: projImg12,
+      projectLink: "https://usmanwasif123.github.io/Stock_photos/",
     },
   ];
 
   const projectsTab2 = [
     {
-      title: "Vesco site" ,
-      description: "Clothing Brand",
-      imgUrl: projImg4,
-      projectLink: "https://usmanwasif123.github.io/Vesco_site/",
+      title: "Search Github User",
+      description: "Find Github users",
+      imgUrl: projImg13,
+      projectLink: "https://searchgithubuser-react.netlify.app/",
     },
-    {
-      title: "Stock Photo",
-      description: "Get every photos ",
-      imgUrl: projImg5,
-      projectLink: "https://usmanwasif123.github.io/Stock_photos/",
-    },
-   
     {
       title: "Memory Game",
       description: "two same make you win",
-      imgUrl: projImg6,
+      imgUrl: projImg14,
       projectLink: "https://usmanwasif123.github.io/Memory-Card-Game/",
+    },
+   
+    {
+      title: "Comfy Store",
+      description: "Purchase What You Want",
+      imgUrl: projImg15,
+      projectLink: "https://9comfy-store.netlify.app/",
     },
   ];
 
   const projectsTab3 = [
     {
-      title: "Search Github User",
-      description: "Find Github users",
-      imgUrl: projImg1,
-      projectLink: "https://searchgithubuser-react.netlify.app/",
+      title: "Grocery Store",
+      description: "SPA site with user login functionalities",
+      imgUrl: projImg16,
+      projectLink: "https://7grocery-store.netlify.app/",
     },
     {
-      title: "Tours",
-      description: "Your Destination Guide",
-      imgUrl: projImg2,
-      projectLink: "https://12our-tours.netlify.app/",
+      title: "Dark Mode",
+      description: "Switch to Dark/Light Mode",
+      imgUrl: projImg17,
+      projectLink: "https://usmanwasif123.github.io/dark-mode/",
     },
     {
-      title: "Comfy Store",
-      description: "Purchase What You Want",
-      imgUrl: projImg3,
-      projectLink: "https://9comfy-store.netlify.app/",
+      title: "SocialMedia with GraphQL",
+      description: "Social media app with sign and sign up option using graphql",
+      imgUrl: projImg18,
+      projectLink: "http://192.168.18.7:3000/",
     },
   ]
 

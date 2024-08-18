@@ -38,7 +38,7 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="mailto:usmanwasif11@outlook.com">
             <img src={logo} alt="Logo"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -59,7 +59,7 @@ export const NavBar = () => {
                 <a href="https://app.netlify.com/teams/usmanwasif123/overview" target="_blank" rel="noopener noreferrer"><img src={navIcon5} alt="netlify"/></a>
            
               </div>
-              <HashLink to='#connect'>
+              <HashLink to='mailto:usmanwasif11@outlook.com'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
             </span>
