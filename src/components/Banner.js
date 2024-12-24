@@ -54,9 +54,9 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Usman Wasif`} <span className="txt-rotate" data-period="1000" data-rotate='[ "Front End Developer", "Crafting Experiences" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>A passionate Front End Software Developer 🚀 having an experience of building Web applications with JavaScript / ReactJs / Nodejs some other cool libraries and frameworks.</p>
+                <span className="tagline">Explore my work!</span>
+                <h1>{`Hi! I'm Usman Wasif`} <span className="txt-rotate" data-period="1000" data-rotate='["A Front End Developer", "Crafting Experiences" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>A passionate Front End Software Developer 🚀 having an experience of building Web applications with JavaScript Framework / ReactJs / NextJs / NodeJs some other cool libraries and frameworks.</p>
               </div>}
             </TrackVisibility>
           </Col>

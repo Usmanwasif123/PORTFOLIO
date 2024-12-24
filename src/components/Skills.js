@@ -37,39 +37,35 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="meter" />
-                                <h5>Web Development</h5>
+                                <h5>REACT</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="meter" />
-                                <h5>Mobile Responsive Design</h5>
+                                <h5>NEXT</h5>
                             </div>
                            <div className="item">
                                 <img src={meter2} alt="meter" />
-                                <h5>MERN</h5>
+                                <h5>TYPESCRIPT</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="meter" />
-                                <h5>ReactJS</h5>
+                                <img src={meter1} alt="meter" />
+                                <h5>JAVASCRIPT</h5>
                             </div>
                          <div className="item">
-                                <img src={meter2} alt="meter" />
-                                <h5>NextJS</h5>
+                                <img src={meter1} alt="meter" />
+                                <h5>CSS3</h5>
                             </div>
                          <div className="item">
-                                <img src={meter2} alt="meter" />
-                                <h5>TailwindCSS</h5>
-                            </div>
-                         <div className="item">
-                                <img src={meter2} alt="meter" />
-                                <h5>Express</h5>
-                            </div>
-                            <div className="item">
                                 <img src={meter1} alt="meter" />
                                 <h5>HTML5</h5>
                             </div>
+                         <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>JQUERY</h5>
+                            </div>
                             <div className="item">
                                 <img src={meter1} alt="meter" />
-                                <h5>CSS3</h5>
+                                <h5>BOOTSTRAP 4 & 5</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="meter" />
@@ -77,60 +73,108 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="meter" />
-                                <h5>JAVASCRIPT</h5>
+                                <h5>SCSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>SEMANTIC UI</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>SHADCN UI</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>FRAMER MOTION</h5>
                             </div>
                          <div className="item">
                                 <img src={meter2} alt="meter" />
-                                <h5>TYPESCRIPT</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="meter" />
-                                <h5>BOOTSTRAP5</h5>
+                                <h5>MATERIAL UI</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="meter" />
-                                <h5>JQUERY</h5>
+                                <h5>TAILWINDCSS</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="meter" />
-                                <h5>NODEJS</h5>
+                                <h5>APPWRITE</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>SENTRY</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>WORDPRESS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>NODE</h5>
                             </div>
                            <div className="item">
                                 <img src={meter2} alt="meter" />
+                                <h5>EXPRESS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="meter" />
                                 <h5>MONGODB</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="meter" />
+                                <img src={meter2} alt="meter" />
                                 <h5>SQL</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="meter" />
-                                <h5>RESTFUL API</h5>
+                                <img src={meter2} alt="meter" />
+                                <h5>MYSQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>MERN</h5>
                             </div>
                            <div className="item">
-                                <img src={meter1} alt="meter" />
+                                <img src={meter3} alt="meter" />
+                                <h5>RESTAPI</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="meter" />
                                 <h5>GRAPHQL</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="meter" />
-                                <h5>GIT VERSION CONTROL</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="meter" />
-                                <h5>GITHUB</h5>
+                                <h5>WEBPACK</h5>
                             </div>
                           <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>BABEL</h5>
+                            </div>
+                          <div className="item">
+                                <img src={meter1} alt="meter" />
+                                <h5>VERSION CONTROL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="meter" />
+                                <h5>GITHUB</h5>
+                            </div> 
+                            <div className="item">
                                 <img src={meter2} alt="meter" />
                                 <h5>VERCEL</h5>
                             </div>
-                          <div className="item">
-                                <img src={meter2} alt="meter" />
-                                <h5>NETLIFY</h5>
-                            </div>
                             <div className="item">
-                                <img src={meter3} alt="meter" />
-                                <h5>SEO</h5>
-                            </div>                            
+                                <img src={meter1} alt="meter" />
+                                <h5>RESPONSIVE DESIGN</h5>
+                            </div>  
+                            <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>CROSS-BROWSER COMPATIBILITY</h5>
+                            </div>  
+                            <div className="item">
+                                <img src={meter2} alt="meter" />
+                                <h5>USER-FRIENDLY DESIGN</h5>
+                            </div> 
+                            <div className="item">
+                                <img src={meter1} alt="meter" />
+                                <h5>PROBLEM SOLVING</h5>
+                            </div>                           
                         </Carousel>
                     </div>
                 </div>

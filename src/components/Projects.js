@@ -18,6 +18,9 @@ import projImg15 from "../assets/img/project-img15.png";
 import projImg16 from "../assets/img/project-img16.png";
 import projImg17 from "../assets/img/project-img-17.png";
 import projImg18 from "../assets/img/project-img18.png";
+import jawaan from "../assets/img/jawanss.png";
+import anointedglow from "../assets/img/anoglowss.png";
+import poker from "../assets/img/pokerss.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -26,6 +29,29 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Jaawan Champions",
+      description: "A school site for client.",
+      imgUrl: jawaan,
+      projectLink: "https://jawaanchampions.com/",
+      
+    },
+    {
+      title: "Anointed Glow Canada",
+      description: "Skin care ecommerce site for client.",
+      imgUrl: anointedglow,
+      projectLink: "https://anointedglow.ca/",
+    },
+   
+    {
+      title: "Rough rider poker tour",
+      description: "Input your score that you collect from poker game. A client project.",
+      imgUrl: poker,
+      projectLink: "https://roughriderpokertour.vercel.app/",
+    },
+  ];
+
+  const projectsTab2 = [
     {
       title: "Banking App with Finance Management Dashboard",
       description: "Horizon is a modern banking platform for everyone.",
@@ -48,7 +74,7 @@ export const Projects = () => {
     },
   ];
 
-  const projectsTab2 = [
+  const projectsTab3 = [
     {
       title: "Search Github User",
       description: "Find Github users",
@@ -70,7 +96,7 @@ export const Projects = () => {
     },
   ];
 
-  const projectsTab3 = [
+  const projectsTab4 = [
     {
       title: "Grocery Store",
       description: "SPA site with user login functionalities",
@@ -111,6 +137,15 @@ export const Projects = () => {
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="fourth">Tab 4</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="fifth">Tab 5</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="sixth">Tab 6</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -156,6 +191,21 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
+                    <Tab.Pane eventKey="fourth">
+                      <Row>
+                        {
+                          projectsTab4.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+                    
                   </Tab.Content>
                 </Tab.Container>
               </div>}
